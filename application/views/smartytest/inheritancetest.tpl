@@ -1,5 +1,5 @@
 {* Extend our master template *}
-{extends file="master.tpl"}
+{extends file="smartytest/master.tpl"}
 
 {* This block is defined in the master.php template *}
 {block name=title}
