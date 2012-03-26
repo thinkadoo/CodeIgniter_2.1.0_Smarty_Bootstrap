@@ -1,4 +1,4 @@
-{embed="site/header"}
+{include file="bootstrap/site/header.tpl"}
 
 <!-- Masthead
 ================================================== -->
@@ -1404,5 +1404,4 @@
   </div><!--/row-->
 </section>
 
-
-{embed="site/footer"}
+{include file="bootstrap/site/footer.tpl"}
