@@ -1,4 +1,30 @@
-{embed="site/header"}
+<?php /* Smarty version Smarty-3.1.8, created on 2012-03-26 16:34:56
+         compiled from "application/views/bootstrap/javascript/alerts.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:20683261984f707e90eca522-26624901%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '7bf20c4e374387816c08a0bd635b20c2ef222062' => 
+    array (
+      0 => 'application/views/bootstrap/javascript/alerts.tpl',
+      1 => 1332772495,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '20683261984f707e90eca522-26624901',
+  'function' => 
+  array (
+  ),
+  'variables' => 
+  array (
+    'site_url' => 0,
+  ),
+  'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_4f707e90eef9a6_24393486',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_4f707e90eef9a6_24393486')) {function content_4f707e90eef9a6_24393486($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("bootstrap/site/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+
 
 <!-- Masthead
 ================================================== -->
@@ -34,7 +60,8 @@
         <div class="span3 columns">
             <h3>About alerts</h3>
             <p>The alert plugin is a tiny class for adding close functionality to alerts.</p>
-            <a href="{site_url}assets/js/bootstrap-alert.js" target="_blank" class="btn">Download</a>
+            <a href="<?php echo $_smarty_tpl->tpl_vars['site_url']->value;?>
+assets/js/bootstrap-alert.js" target="_blank" class="btn">Download</a>
         </div>
         <div class="span9 columns">
             <h2>Example alerts</h2>
@@ -92,38 +119,5 @@ $('#my-alert').bind('closed', function () {
     </div>
 </section>
 
-
-<!-- Footer
-================================================== -->
-<footer class="footer">
-    <p class="pull-right"><a href="#">Back to top</a></p>
-    <p>Designed and built with all the love in the world <a href="http://twitter.com/twitter" target="_blank">@twitter</a> by <a href="http://twitter.com/mdo" target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.</p>
-    <p>Code licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>. Documentation licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
-    <p>Icons from <a href="http://glyphicons.com">Glyphicons Free</a>, licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
-</footer>
-
-</div><!-- /container -->
-
-
-
-<!-- Le javascript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-<script src="{site_url}assets/js/jquery.js"></script>
-<script src="{site_url}assets/js/google-code-prettify/prettify.js"></script>
-<script src="{site_url}assets/js/bootstrap-transition.js"></script>
-<script src="{site_url}assets/js/bootstrap-alert.js"></script>
-<script src="{site_url}assets/js/bootstrap-modal.js"></script>
-<script src="{site_url}assets/js/bootstrap-dropdown.js"></script>
-<script src="{site_url}assets/js/bootstrap-scrollspy.js"></script>
-<script src="{site_url}assets/js/bootstrap-tab.js"></script>
-<script src="{site_url}assets/js/bootstrap-tooltip.js"></script>
-<script src="{site_url}assets/js/bootstrap-popover.js"></script>
-<script src="{site_url}assets/js/bootstrap-button.js"></script>
-<script src="{site_url}assets/js/bootstrap-collapse.js"></script>
-<script src="{site_url}assets/js/bootstrap-carousel.js"></script>
-<script src="{site_url}assets/js/bootstrap-typeahead.js"></script>
-<script src="{site_url}assets/js/application.js"></script>
-</body>
-</html>
+<?php echo $_smarty_tpl->getSubTemplate ("bootstrap/site/footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+<?php }} ?>

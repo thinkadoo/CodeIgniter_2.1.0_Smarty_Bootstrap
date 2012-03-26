@@ -1,4 +1,30 @@
-{embed="site/header"}
+<?php /* Smarty version Smarty-3.1.8, created on 2012-03-26 16:52:47
+         compiled from "application/views/bootstrap/javascript/typeahead.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:2575988874f7082bfd91e88-01280418%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '69c5ab6338aa1f5bd600f2cf1aa200b7b5e71d38' => 
+    array (
+      0 => 'application/views/bootstrap/javascript/typeahead.tpl',
+      1 => 1332773526,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '2575988874f7082bfd91e88-01280418',
+  'function' => 
+  array (
+  ),
+  'variables' => 
+  array (
+    'site_url' => 0,
+  ),
+  'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_4f7082bfdad4f3_74060650',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_4f7082bfdad4f3_74060650')) {function content_4f7082bfdad4f3_74060650($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("bootstrap/site/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+
 
 <!-- Masthead
 ================================================== -->
@@ -35,7 +61,8 @@
         <div class="span3 columns">
             <h3>About</h3>
             <p>A basic, easily extended plugin for quickly creating elegant typeaheads with any form text input.</p>
-            <a href="{site_url}assets/js/bootstrap-typeahead.js" target="_blank" class="btn">Download file</a>
+            <a href="<?php echo $_smarty_tpl->tpl_vars['site_url']->value;?>
+assets/js/bootstrap-typeahead.js" target="_blank" class="btn">Download file</a>
         </div>
         <div class="span9 columns">
             <h2>Example</h2>
@@ -103,37 +130,6 @@
     </div>
 </section>
 
-<!-- Footer
-================================================== -->
-<footer class="footer">
-    <p class="pull-right"><a href="#">Back to top</a></p>
-    <p>Designed and built with all the love in the world <a href="http://twitter.com/twitter" target="_blank">@twitter</a> by <a href="http://twitter.com/mdo" target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.</p>
-    <p>Code licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>. Documentation licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
-    <p>Icons from <a href="http://glyphicons.com">Glyphicons Free</a>, licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
-</footer>
+<?php echo $_smarty_tpl->getSubTemplate ("bootstrap/site/footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 
-</div><!-- /container -->
-
-
-
-<!-- Le javascript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-<script src="{site_url}assets/js/jquery.js"></script>
-<script src="{site_url}assets/js/google-code-prettify/prettify.js"></script>
-<script src="{site_url}assets/js/bootstrap-transition.js"></script>
-<script src="{site_url}assets/js/bootstrap-alert.js"></script>
-<script src="{site_url}assets/js/bootstrap-modal.js"></script>
-<script src="{site_url}assets/js/bootstrap-dropdown.js"></script>
-<script src="{site_url}assets/js/bootstrap-scrollspy.js"></script>
-<script src="{site_url}assets/js/bootstrap-tab.js"></script>
-<script src="{site_url}assets/js/bootstrap-tooltip.js"></script>
-<script src="{site_url}assets/js/bootstrap-popover.js"></script>
-<script src="{site_url}assets/js/bootstrap-button.js"></script>
-<script src="{site_url}assets/js/bootstrap-collapse.js"></script>
-<script src="{site_url}assets/js/bootstrap-carousel.js"></script>
-<script src="{site_url}assets/js/bootstrap-typeahead.js"></script>
-<script src="{site_url}assets/js/application.js"></script>
-</body>
-</html>
+<?php }} ?>

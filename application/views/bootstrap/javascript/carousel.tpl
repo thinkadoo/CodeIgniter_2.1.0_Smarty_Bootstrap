@@ -1,4 +1,4 @@
-{embed="site/header"}
+{include file="bootstrap/site/header.tpl"}
 
 <!-- Masthead
 ================================================== -->
@@ -35,7 +35,7 @@
         <div class="span3 columns">
             <h3>About</h3>
             <p>A generic plugin for cycling through elements. A merry-go-round.</p>
-            <a href="{site_url}assets/js/bootstrap-carousel.js" target="_blank" class="btn">Download file</a>
+            <a href="{$site_url}assets/js/bootstrap-carousel.js" target="_blank" class="btn">Download file</a>
         </div>
         <div class="span9 columns">
             <h2>Example carousel</h2>
@@ -43,21 +43,21 @@
             <div id="myCarousel" class="carousel slide">
                 <div class="carousel-inner">
                     <div class="item active">
-                        <img src="{site_url}assets/img/bootstrap-mdo-sfmoma-01.jpg" alt="">
+                        <img src="{$site_url}assets/img/bootstrap-mdo-sfmoma-01.jpg" alt="">
                         <div class="carousel-caption">
                             <h4>First Thumbnail label</h4>
                             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
                         </div>
                     </div>
                     <div class="item">
-                        <img src="{site_url}assets/img/bootstrap-mdo-sfmoma-02.jpg" alt="">
+                        <img src="{$site_url}assets/img/bootstrap-mdo-sfmoma-02.jpg" alt="">
                         <div class="carousel-caption">
                             <h4>Second Thumbnail label</h4>
                             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
                         </div>
                     </div>
                     <div class="item">
-                        <img src="{site_url}assets/img/bootstrap-mdo-sfmoma-03.jpg" alt="">
+                        <img src="{$site_url}assets/img/bootstrap-mdo-sfmoma-03.jpg" alt="">
                         <div class="carousel-caption">
                             <h4>Third Thumbnail label</h4>
                             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -149,38 +149,4 @@ $('.myCarousel').carousel({
     </div>
 </section>
 
-
-<!-- Footer
-================================================== -->
-<footer class="footer">
-    <p class="pull-right"><a href="#">Back to top</a></p>
-    <p>Designed and built with all the love in the world <a href="http://twitter.com/twitter" target="_blank">@twitter</a> by <a href="http://twitter.com/mdo" target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.</p>
-    <p>Code licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>. Documentation licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
-    <p>Icons from <a href="http://glyphicons.com">Glyphicons Free</a>, licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
-</footer>
-
-</div><!-- /container -->
-
-
-
-<!-- Le javascript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-<script src="{site_url}assets/js/jquery.js"></script>
-<script src="{site_url}assets/js/google-code-prettify/prettify.js"></script>
-<script src="{site_url}assets/js/bootstrap-transition.js"></script>
-<script src="{site_url}assets/js/bootstrap-alert.js"></script>
-<script src="{site_url}assets/js/bootstrap-modal.js"></script>
-<script src="{site_url}assets/js/bootstrap-dropdown.js"></script>
-<script src="{site_url}assets/js/bootstrap-scrollspy.js"></script>
-<script src="{site_url}assets/js/bootstrap-tab.js"></script>
-<script src="{site_url}assets/js/bootstrap-tooltip.js"></script>
-<script src="{site_url}assets/js/bootstrap-popover.js"></script>
-<script src="{site_url}assets/js/bootstrap-button.js"></script>
-<script src="{site_url}assets/js/bootstrap-collapse.js"></script>
-<script src="{site_url}assets/js/bootstrap-carousel.js"></script>
-<script src="{site_url}assets/js/bootstrap-typeahead.js"></script>
-<script src="{site_url}assets/js/application.js"></script>
-</body>
-</html>
+{include file="bootstrap/site/footer.tpl"}

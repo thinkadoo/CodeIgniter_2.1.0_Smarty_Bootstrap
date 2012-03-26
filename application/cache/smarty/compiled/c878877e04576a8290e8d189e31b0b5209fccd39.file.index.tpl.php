@@ -1,4 +1,30 @@
-{embed="site/header"}
+<?php /* Smarty version Smarty-3.1.8, created on 2012-03-26 16:36:19
+         compiled from "application/views/bootstrap/javascript/index.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:16991417564f707ce78704a3-38000977%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    'c878877e04576a8290e8d189e31b0b5209fccd39' => 
+    array (
+      0 => 'application/views/bootstrap/javascript/index.tpl',
+      1 => 1332772573,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '16991417564f707ce78704a3-38000977',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_4f707ce7909ff9_66104117',
+  'variables' => 
+  array (
+    'site_url' => 0,
+  ),
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_4f707ce7909ff9_66104117')) {function content_4f707ce7909ff9_66104117($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("bootstrap/site/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+
 
       <!-- Masthead
       ================================================== -->
@@ -7,7 +33,7 @@
         <p class="lead">Bring Bootstrap's components to life&mdash;now with 12 custom <a href="http://jquery.com/" target="_blank">jQuery</a> plugins.
         <div class="subnav">
           <ul class="nav nav-pills">
-            <li><a href="javascript/javascript">All plugins</a></li>
+            <li><a href="javascript/alljavascript">All plugins</a></li>
             <li><a href="javascript/modals">Modal</a></li>
             <li><a href="javascript/dropdowns">Dropdown</a></li>
             <li><a href="javascript/scrollspy">Scrollspy</a></li>
@@ -125,7 +151,8 @@
         <div class="span3 columns">
           <h3>About modals</h3>
           <p>A streamlined, but flexible, take on the traditional javascript modal plugin with only the minimum required functionality and smart defaults.</p>
-          <a href="{site_url}assets/js/bootstrap-modal.js" target="_blank" class="btn">Download file</a>
+          <a href="<?php echo $_smarty_tpl->tpl_vars['site_url']->value;?>
+assets/js/bootstrap-modal.js" target="_blank" class="btn">Download file</a>
         </div>
         <div class="span9 columns">
           <h2>Static example</h2>
@@ -291,7 +318,8 @@ $('#myModal').on('hidden', function () {
         <div class="span3 columns">
           <h3>About dropdowns</h3>
           <p>Add dropdown menus to nearly anything in Bootstrap with this simple plugin. Bootstrap features full dropdown menu support on in the navbar, tabs, and pills.</p>
-          <a href="{site_url}assets/js/bootstrap-dropdown.js" target="_blank" class="btn">Download file</a>
+          <a href="<?php echo $_smarty_tpl->tpl_vars['site_url']->value;?>
+assets/js/bootstrap-dropdown.js" target="_blank" class="btn">Download file</a>
         </div>
         <div class="span9 columns">
           <h2>Examples</h2>
@@ -419,7 +447,8 @@ $('#myModal').on('hidden', function () {
       <div class="row">
         <div class="span3 columns">
           <p>The ScrollSpy plugin is for automatically updating nav targets based on scroll position.</p>
-          <a href="{site_url}assets/js/bootstrap-scrollspy.js" target="_blank" class="btn">Download file</a>
+          <a href="<?php echo $_smarty_tpl->tpl_vars['site_url']->value;?>
+assets/js/bootstrap-scrollspy.js" target="_blank" class="btn">Download file</a>
         </div>
         <div class="span9 columns">
           <h2>Example navbar with scrollspy</h2>
@@ -513,7 +542,8 @@ $('#myModal').on('hidden', function () {
       <div class="row">
         <div class="span3 columns">
           <p>This plugin adds quick, dynamic tab and pill functionality for transitioning through local content.</p>
-          <a href="{site_url}assets/js/bootstrap-tab.js" target="_blank" class="btn">Download file</a>
+          <a href="<?php echo $_smarty_tpl->tpl_vars['site_url']->value;?>
+assets/js/bootstrap-tab.js" target="_blank" class="btn">Download file</a>
         </div>
         <div class="span9 columns">
           <h2>Example tabs</h2>
@@ -621,7 +651,8 @@ $('a[data-toggle="tab"]').on('shown', function (e) {
         <div class="span3 columns">
           <h3>About Tooltips</h3>
           <p>Inspired by the excellent jQuery.tipsy plugin written by Jason Frame; Tooltips are an updated version, which don't rely on images, uss css3 for animations, and data-attributes for local title storage.</p>
-          <a href="{site_url}assets/js/bootstrap-tooltip.js" target="_blank" class="btn">Download file</a>
+          <a href="<?php echo $_smarty_tpl->tpl_vars['site_url']->value;?>
+assets/js/bootstrap-tooltip.js" target="_blank" class="btn">Download file</a>
         </div>
         <div class="span9 columns">
           <h2>Example use of Tooltips</h2>
@@ -722,7 +753,8 @@ $('a[data-toggle="tab"]').on('shown', function (e) {
           <h3>About popovers</h3>
           <p>Add small overlays of content, like those on the iPad, to any element for housing secondary information.</p>
           <p class="muted"><strong>*</strong> Requires <a href="#tooltip">Tooltip</a> to be included</p>
-          <a href="{site_url}assets/js/bootstrap-popover.js" target="_blank" class="btn">Download file</a>
+          <a href="<?php echo $_smarty_tpl->tpl_vars['site_url']->value;?>
+assets/js/bootstrap-popover.js" target="_blank" class="btn">Download file</a>
         </div>
         <div class="span9 columns">
           <h2>Example hover popover</h2>
@@ -829,7 +861,8 @@ $('a[data-toggle="tab"]').on('shown', function (e) {
         <div class="span3 columns">
           <h3>About alerts</h3>
           <p>The alert plugin is a tiny class for adding close functionality to alerts.</p>
-          <a href="{site_url}assets/js/bootstrap-alert.js" target="_blank" class="btn">Download</a>
+          <a href="<?php echo $_smarty_tpl->tpl_vars['site_url']->value;?>
+assets/js/bootstrap-alert.js" target="_blank" class="btn">Download</a>
         </div>
         <div class="span9 columns">
           <h2>Example alerts</h2>
@@ -899,7 +932,8 @@ $('#my-alert').bind('closed', function () {
         <div class="span3 columns">
           <h3>About</h3>
           <p>Do more with buttons. Control button states or create groups of buttons for more components like toolbars.</p>
-          <a href="{site_url}assets/js/bootstrap-button.js" target="_blank" class="btn">Download file</a>
+          <a href="<?php echo $_smarty_tpl->tpl_vars['site_url']->value;?>
+assets/js/bootstrap-button.js" target="_blank" class="btn">Download file</a>
         </div>
         <div class="span9 columns">
           <h2>Example uses</h2>
@@ -1006,7 +1040,8 @@ $('#my-alert').bind('closed', function () {
         <div class="span3 columns">
           <h3>About</h3>
           <p>Get base styles and flexible support for collapsible components like accordions and navigation.</p>
-          <a href="{site_url}assets/js/bootstrap-collapse.js" target="_blank" class="btn">Download file</a>
+          <a href="<?php echo $_smarty_tpl->tpl_vars['site_url']->value;?>
+assets/js/bootstrap-collapse.js" target="_blank" class="btn">Download file</a>
         </div>
         <div class="span9 columns">
           <h2>Example accordion</h2>
@@ -1159,7 +1194,8 @@ $('#myCollapsible').on('hidden', function () {
         <div class="span3 columns">
           <h3>About</h3>
           <p>A generic plugin for cycling through elements. A merry-go-round.</p>
-          <a href="{site_url}assets/js/bootstrap-carousel.js" target="_blank" class="btn">Download file</a>
+          <a href="<?php echo $_smarty_tpl->tpl_vars['site_url']->value;?>
+assets/js/bootstrap-carousel.js" target="_blank" class="btn">Download file</a>
         </div>
         <div class="span9 columns">
           <h2>Example carousel</h2>
@@ -1167,21 +1203,24 @@ $('#myCollapsible').on('hidden', function () {
           <div id="myCarousel" class="carousel slide">
             <div class="carousel-inner">
               <div class="item active">
-                <img src="{site_url}assets/img/bootstrap-mdo-sfmoma-01.jpg" alt="">
+                <img src="<?php echo $_smarty_tpl->tpl_vars['site_url']->value;?>
+assets/img/bootstrap-mdo-sfmoma-01.jpg" alt="">
                 <div class="carousel-caption">
                   <h4>First Thumbnail label</h4>
                   <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
                 </div>
               </div>
               <div class="item">
-                <img src="{site_url}assets/img/bootstrap-mdo-sfmoma-02.jpg" alt="">
+                <img src="<?php echo $_smarty_tpl->tpl_vars['site_url']->value;?>
+assets/img/bootstrap-mdo-sfmoma-02.jpg" alt="">
                 <div class="carousel-caption">
                   <h4>Second Thumbnail label</h4>
                   <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
                 </div>
               </div>
               <div class="item">
-                <img src="{site_url}assets/img/bootstrap-mdo-sfmoma-03.jpg" alt="">
+                <img src="<?php echo $_smarty_tpl->tpl_vars['site_url']->value;?>
+assets/img/bootstrap-mdo-sfmoma-03.jpg" alt="">
                 <div class="carousel-caption">
                   <h4>Third Thumbnail label</h4>
                   <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -1285,7 +1324,8 @@ $('.myCarousel').carousel({
         <div class="span3 columns">
           <h3>About</h3>
           <p>A basic, easily extended plugin for quickly creating elegant typeaheads with any form text input.</p>
-          <a href="{site_url}assets/js/bootstrap-typeahead.js" target="_blank" class="btn">Download file</a>
+          <a href="<?php echo $_smarty_tpl->tpl_vars['site_url']->value;?>
+assets/js/bootstrap-typeahead.js" target="_blank" class="btn">Download file</a>
         </div>
         <div class="span9 columns">
           <h2>Example</h2>
@@ -1353,4 +1393,6 @@ $('.myCarousel').carousel({
       </div>
     </section>
 
-{embed="site/footer"}
+<?php echo $_smarty_tpl->getSubTemplate ("bootstrap/site/footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+
+<?php }} ?>
