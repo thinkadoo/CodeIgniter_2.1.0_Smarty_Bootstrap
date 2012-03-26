@@ -20,6 +20,33 @@ class Basecss extends CI_Controller {
         $this->parser->parse("bootstrap/basecss/index.tpl", $data);
     }
 
+    public function buttons()
+    {
+        $data['site_url'] = $this->url;
+
+        // Load the template from the views directory
+        $this->parser->parse("bootstrap/basecss/buttons.tpl", $data);
+
+    }
+
+    public function code()
+    {
+        $data['site_url'] = $this->url;
+
+        // Load the template from the views directory
+        $this->parser->parse("bootstrap/basecss/code.tpl", $data);
+
+    }
+
+    public function forms()
+    {
+        $data['site_url'] = $this->url;
+
+        // Load the template from the views directory
+        $this->parser->parse("bootstrap/basecss/forms.tpl", $data);
+
+    }
+
     public function icons()
     {
         $data['site_url'] = $this->url;
@@ -29,6 +56,22 @@ class Basecss extends CI_Controller {
 
     }
 
+    public function tables()
+    {
+        $data['site_url'] = $this->url;
 
+        // Load the template from the views directory
+        $this->parser->parse("bootstrap/basecss/tables.tpl", $data);
+
+    }
+
+    public function typography()
+    {
+        $data['site_url'] = $this->url;
+
+        // Load the template from the views directory
+        $this->parser->parse("bootstrap/basecss/typography.tpl", $data);
+
+    }
 
 }
