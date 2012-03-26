@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2012-03-26 16:42:16
+<?php /* Smarty version Smarty-3.1.8, created on 2012-03-26 23:02:07
          compiled from "application/views/bootstrap/javascript/collapse.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:6724691634f7080482ce7a3-95099988%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'aaf158b9b2617e0961d80c16e1acd66b41bc5069' => 
     array (
       0 => 'application/views/bootstrap/javascript/collapse.tpl',
-      1 => 1332772935,
+      1 => 1332795721,
       2 => 'file',
     ),
   ),
@@ -15,13 +15,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_4f7080482f5ef4_55125749',
   'variables' => 
   array (
     'site_url' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_4f7080482f5ef4_55125749',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_4f7080482f5ef4_55125749')) {function content_4f7080482f5ef4_55125749($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("bootstrap/site/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 
@@ -33,7 +33,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <p class="lead">Bring Bootstrap's components to life&mdash;now with 12 custom <a href="http://jquery.com/" target="_blank">jQuery</a> plugins.
     <div class="subnav">
         <ul class="nav nav-pills">
-            <li><a href="javascript">All plugins</a></li>
             <li><a href="modals">Modal</a></li>
             <li><a href="dropdowns">Dropdown</a></li>
             <li><a href="scrollspy">Scrollspy</a></li>

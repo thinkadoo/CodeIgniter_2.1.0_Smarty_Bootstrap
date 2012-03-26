@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2012-03-26 16:36:19
+<?php /* Smarty version Smarty-3.1.8, created on 2012-03-26 23:00:21
          compiled from "application/views/bootstrap/javascript/index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:16991417564f707ce78704a3-38000977%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'c878877e04576a8290e8d189e31b0b5209fccd39' => 
     array (
       0 => 'application/views/bootstrap/javascript/index.tpl',
-      1 => 1332772573,
+      1 => 1332795621,
       2 => 'file',
     ),
   ),
@@ -33,7 +33,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         <p class="lead">Bring Bootstrap's components to life&mdash;now with 12 custom <a href="http://jquery.com/" target="_blank">jQuery</a> plugins.
         <div class="subnav">
           <ul class="nav nav-pills">
-            <li><a href="javascript/alljavascript">All plugins</a></li>
             <li><a href="javascript/modals">Modal</a></li>
             <li><a href="javascript/dropdowns">Dropdown</a></li>
             <li><a href="javascript/scrollspy">Scrollspy</a></li>

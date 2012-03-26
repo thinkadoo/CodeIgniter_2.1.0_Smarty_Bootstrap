@@ -7,7 +7,6 @@
         <p class="lead">Bring Bootstrap's components to life&mdash;now with 12 custom <a href="http://jquery.com/" target="_blank">jQuery</a> plugins.
         <div class="subnav">
           <ul class="nav nav-pills">
-            <li><a href="javascript/alljavascript">All plugins</a></li>
             <li><a href="javascript/modals">Modal</a></li>
             <li><a href="javascript/dropdowns">Dropdown</a></li>
             <li><a href="javascript/scrollspy">Scrollspy</a></li>
