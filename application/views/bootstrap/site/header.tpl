@@ -42,7 +42,7 @@
             <div class="nav-collapse">
                 <ul class="nav">
                     <li class="active">
-                        <a href="{$site_url}index.php/site">Overview</a>
+                        <a href="{$site_url}index.php/bootstrap">Overview</a>
                     </li>
                     <li class="">
                         <a href="{$site_url}index.php/scaffolding">Scaffolding</a>

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2012-03-26 15:36:15
+<?php /* Smarty version Smarty-3.1.8, created on 2012-03-26 16:15:42
          compiled from "application/views/bootstrap/components/thumbnails.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:11460658824f7070cf32f3f2-93449821%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '1cad705b9af60c9f3bf12aef094386d20642b2d6' => 
     array (
       0 => 'application/views/bootstrap/components/thumbnails.tpl',
-      1 => 1332768304,
+      1 => 1332769614,
       2 => 'file',
     ),
   ),
@@ -15,9 +15,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.8',
   'unifunc' => 'content_4f7070cf345081_10920213',
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_4f7070cf345081_10920213')) {function content_4f7070cf345081_10920213($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("bootstrap/site/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 

@@ -1,4 +1,4 @@
-{embed="site/header"}
+{include file="bootstrap/site/header.tpl"}
 
       <!-- Masthead
       ================================================== -->
@@ -237,7 +237,7 @@
   <!-- Supported devices -->
   <div class="row">
     <div class="span4">
-      <img src="{site_url}assets/img/responsive-illustrations.png" alt="Responsive devices">
+      <img src="{$site_url}assets/img/responsive-illustrations.png" alt="Responsive devices">
     </div>
     <div class="span8">
       <h2>Supported devices</h2>
@@ -325,5 +325,4 @@
   </div>
 </section>
 
-
-{embed="site/footer"}
+{include file="bootstrap/site/footer.tpl"}

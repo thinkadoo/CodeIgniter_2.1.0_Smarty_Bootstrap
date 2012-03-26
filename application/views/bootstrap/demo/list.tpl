@@ -1,6 +1,5 @@
-{embed="site/header"}
-
-{embed="demo/masthead"}
+{include file="bootstrap/site/header.tpl"}
+{include file="bootstrap/demo/masthead.tpl"}
 
 <section id="list">
 <div class="row">
@@ -73,4 +72,4 @@
 </div>
 </section>
 
-{embed="site/footer"}
+{include file="bootstrap/site/footer.tpl"}

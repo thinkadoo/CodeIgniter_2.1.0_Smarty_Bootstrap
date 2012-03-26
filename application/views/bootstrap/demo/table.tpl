@@ -1,6 +1,6 @@
-{embed="site/header"}
+{include file="bootstrap/site/header.tpl"}
 
-{embed="demo/masthead"}
+{include file="bootstrap/demo/masthead.tpl"}
 
 <section id="table">
 
@@ -48,4 +48,4 @@
 
 </section>
 
-{embed="site/footer"}
+{include file="bootstrap/site/footer.tpl"}

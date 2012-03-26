@@ -1,6 +1,5 @@
-{embed="site/header"}
-
-{embed="demo/masthead"}
+{include file="bootstrap/site/header.tpl"}
+{include file="bootstrap/demo/masthead.tpl"}
 
 <section id="carousel">
 
@@ -11,21 +10,21 @@
             <div id="myCarousel" class="carousel slide">
                 <div class="carousel-inner">
                     <div class="item active">
-                        <img src="{site_url}assets/img/bootstrap-mdo-sfmoma-01.jpg" alt="">
+                        <img src="{$site_url}assets/img/bootstrap-mdo-sfmoma-01.jpg" alt="">
                         <div class="carousel-caption">
                             <h4>First Thumbnail label</h4>
                             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
                         </div>
                     </div>
                     <div class="item">
-                        <img src="{site_url}assets/img/bootstrap-mdo-sfmoma-02.jpg" alt="">
+                        <img src="{$site_url}assets/img/bootstrap-mdo-sfmoma-02.jpg" alt="">
                         <div class="carousel-caption">
                             <h4>Second Thumbnail label</h4>
                             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
                         </div>
                     </div>
                     <div class="item">
-                        <img src="{site_url}assets/img/bootstrap-mdo-sfmoma-03.jpg" alt="">
+                        <img src="{$site_url}assets/img/bootstrap-mdo-sfmoma-03.jpg" alt="">
                         <div class="carousel-caption">
                             <h4>Third Thumbnail label</h4>
                             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -114,4 +113,4 @@ $('.myCarousel').carousel({
     </div>
 </section>
 
-{embed="site/footer"}
+{include file="bootstrap/site/footer.tpl"}

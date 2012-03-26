@@ -1,6 +1,28 @@
-{embed="site/header"}
+<?php /* Smarty version Smarty-3.1.8, created on 2012-03-26 15:55:55
+         compiled from "application/views/bootstrap/demo/form.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:14837539364f70756bef3050-35002228%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '45af4b5f208e21412ecd7806e1117d1ea64bf59b' => 
+    array (
+      0 => 'application/views/bootstrap/demo/form.tpl',
+      1 => 1332769741,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '14837539364f70756bef3050-35002228',
+  'function' => 
+  array (
+  ),
+  'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_4f70756bf0c031_02494320',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_4f70756bf0c031_02494320')) {function content_4f70756bf0c031_02494320($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("bootstrap/site/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 
-{embed="demo/masthead"}
+<?php echo $_smarty_tpl->getSubTemplate ("bootstrap/demo/masthead.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+
 
 <section id="form">
 
@@ -73,4 +95,5 @@
 
 </section>
 
-{embed="site/footer"}
+<?php echo $_smarty_tpl->getSubTemplate ("bootstrap/site/footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+<?php }} ?>

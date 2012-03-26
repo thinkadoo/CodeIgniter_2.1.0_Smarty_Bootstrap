@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2012-03-26 13:55:21
+<?php /* Smarty version Smarty-3.1.8, created on 2012-03-26 16:04:05
          compiled from "application/views/bootstrap/site/header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:13328535424f705929c172d6-42400998%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '3155f70a33d4f00ce8fe0a762ad027cea5907e6c' => 
     array (
       0 => 'application/views/bootstrap/site/header.tpl',
-      1 => 1332762919,
+      1 => 1332770641,
       2 => 'file',
     ),
   ),
@@ -15,13 +15,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_4f705929c72b24_63746755',
   'variables' => 
   array (
     'site_url' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_4f705929c72b24_63746755',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_4f705929c72b24_63746755')) {function content_4f705929c72b24_63746755($_smarty_tpl) {?><!DOCTYPE html>
 <html lang="en">
@@ -77,7 +77,7 @@ assets/ico/apple-touch-icon-114x114.png">
                 <ul class="nav">
                     <li class="active">
                         <a href="<?php echo $_smarty_tpl->tpl_vars['site_url']->value;?>
-index.php/site">Overview</a>
+index.php/bootstrap">Overview</a>
                     </li>
                     <li class="">
                         <a href="<?php echo $_smarty_tpl->tpl_vars['site_url']->value;?>
